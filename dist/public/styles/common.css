@@ -1,0 +1,8 @@
+#header-wrap .action-menu {
+    display: inline-block;
+    align-items: baseline;
+  }
+  
+  #header-wrap .action-menu span.opennav.openicon {
+    cursor: pointer;
+  }
