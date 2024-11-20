@@ -51,7 +51,7 @@ export function BookCard(data: { data: Books }) {
 						variant="small"
 						className="font-semibold"
 					>
-						€{price}
+						${price}
 					</Typography>
 				</div>
 				<Typography
