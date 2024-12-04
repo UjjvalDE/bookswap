@@ -264,7 +264,7 @@ export default function ProductDetails({
 									variant={'paragraph'}
 									className="font-normal tracking-tighter"
 								>
-									$ {price}
+									€ {price}
 								</Typography>
 							</div>
 							<Typography variant="small" className="font-medium">
@@ -315,7 +315,7 @@ export default function ProductDetails({
 							<Typography variant="small" className="">
 								Last Price:{' '}
 								<span className="text-foreground-900 font-semibold text-black">
-									${price}
+									€{price}
 								</span>
 							</Typography>
 							<hr />

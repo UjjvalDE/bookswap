@@ -49,7 +49,7 @@ const CartItem = ({ book, item }: { book: Books; item: Cart }) => {
 					>
 						{name}
 					</Typography>
-					<Metric>$ {price}</Metric>
+					<Metric>€ {price}</Metric>
 				</div>
 				<Typography
 					variant="small"
