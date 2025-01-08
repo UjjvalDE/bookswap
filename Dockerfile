@@ -13,11 +13,12 @@ RUN npm install
 # Step 5: Copy the rest of the application code into the container
 COPY . .
 
+RUN npx prisma generate
 # Step 6: Build the Next.js app for production (optional but recommended)
-RUN npm run dev
+RUN npm run build
 
 # Step 7: Expose port 3000 to allow access to the Next.js app
-EXPOSE 3000
+EXPOSE 4000
 
 # Step 8: Define the command to run the application in production mode
 CMD ["npm", "start"]
